@@ -33,5 +33,6 @@ info:
   company.name: www.sunqqqq.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+  #版本号
 
 

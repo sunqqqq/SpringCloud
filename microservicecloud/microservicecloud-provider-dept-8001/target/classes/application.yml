@@ -31,7 +31,8 @@ eureka:
 info:
   app.name: sunqqqq-microservicecloud
   company.name: www.sunqqqq.com
-  build.artifactId: microservicecloud-provider-dept-8001
-  build.version: 1.0-SNAPSHOT
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+  #版本号
 
 
