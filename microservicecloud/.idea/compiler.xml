@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudeureka7001" />
+        <module name="microservicecloudeureka7002" />
+        <module name="microservicecloudeureka7003" />
         <module name="microservicecloudproviderdept8001" />
         <module name="microsservicecloud-consumer-dept-80" />
         <module name="microsservicecloudconsumerdept80" />
