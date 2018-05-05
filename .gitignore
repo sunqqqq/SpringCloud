@@ -1,3 +1,8 @@
 
 *.class
-microservicecloud/.idea/workspace.xml
+
+/microservicecloud/microservicecloud-api/target
+/microservicecloud/microservicecloud-eureka-7001/target
+/microservicecloud/microservicecloud-provider-dept-8001/target
+/microservicecloud/microsservicecloud-consumer-dept-80/target
+/microservicecloud/.idea/workspace.xml
