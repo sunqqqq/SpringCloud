@@ -28,7 +28,12 @@ public class DeptController {
 
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
     public Dept get(@PathVariable("id") Long id) {
-        return deptService.get(id);
+        Dept dept = deptService.get(id);
+        if (null == dept) {
+            throw new RuntimeException("没有信息");
+        }
+
+        return dept;
     }
 
     @RequestMapping(value = "/dept/list", method = RequestMethod.GET)
