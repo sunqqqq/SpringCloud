@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservicecloudapi" />
-        <module name="microservicecloudeureka7001" />
-        <module name="microservicecloudeureka7002" />
-        <module name="microservicecloudeureka7003" />
-        <module name="microservicecloudproviderdept8001" />
+        <module name="microservicecloud-api" />
+        <module name="microservicecloud-consumer-dept-feign-91" />
+        <module name="microservicecloud-eureka-7001" />
+        <module name="microservicecloud-eureka-7002" />
+        <module name="microservicecloud-eureka-7003" />
+        <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloud-provider-dept-8003" />
         <module name="microsservicecloud-consumer-dept-80" />
         <module name="microsservicecloudconsumerdept80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="microservicecloud-consumer-dept-feign-81" target="1.8" />
       <module name="microsservicecloudconsumerdept80" target="1.8" />
     </bytecodeTargetLevel>
   </component>
