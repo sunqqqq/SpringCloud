@@ -13,3 +13,4 @@
 /microservicecloud/microservicecloud-consumer-dept-feign-91/target
 /microservicecloud/microservicecloud-provider-dept-hystrix-8001/target
 /microservicecloud/microservicecloud-zuul-gateway-9527/target
+/microservicecloud/microservicecloud-consumer-hystrix-dashboard/target
